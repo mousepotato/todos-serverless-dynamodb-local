@@ -8,7 +8,7 @@
 - `serverless dynamodb install`，如需单独启动 dynamodb，使用 `sls dynamodb start`
 - 服务启动： `serverless offline start` 或者 `sls offline start`
 
-- 测试数据写入： `curl -X POST -H "Content-Type:application/json" http://localhost:3000/todos --data '{ "text": "Learn Serverless" }'`
+- 测试数据写入： `curl -X POST -H "Content-Type:application/json" http://localhost:3000/dev/todos --data '{ "text": "Learn Serverless" }'`
 - 查询：`http://localhost:3000/dev/todos`
 
 ## 文档
